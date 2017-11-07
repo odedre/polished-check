@@ -1,0 +1,14 @@
+{
+    "env": {
+        "compiler": "bit.envs/compilers/flow@3",
+        "tester": "bit.envs/testers/jest@18"
+    },
+    "dependencies": {},
+    "structure": {
+        "components": "components/{namespace}/{name}",
+        "dependencies": "components/.dependencies"
+    },
+    "dist": {
+        "target": "dist-bit"
+    }
+}
